@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloMaui.Page1"
+             Title="Page1"
+             BackgroundImageSource="seapic.png">
+    <VerticalStackLayout>
+        <Label 
+            Text="My name is Naomi"
+            BackgroundColor="Aqua"
+            FontSize="50"
+            VerticalOptions="Center" 
+            TextColor="White"
+            HorizontalOptions="Center" />
+        <Label 
+            Text="My name is Naomi"
+            BackgroundColor="Blue"
+            FontSize="30"
+            VerticalOptions="Center" 
+            TextColor="White"
+            HorizontalOptions="Center" />
+        <Entry />
+        <Button Text="hi" BackgroundColor="DarkBlue"/>
+
+
+        <Image Source="dotnet_bot.png" HeightRequest="100"/>
+    </VerticalStackLayout>
+</ContentPage>
